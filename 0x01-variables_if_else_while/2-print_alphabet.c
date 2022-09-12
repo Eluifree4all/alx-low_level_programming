@@ -5,11 +5,11 @@
 */
 int main(void)
 {
-char alpha = 'a';
-while (alpha <= 'z')
-{
-putchar(alpha);									alpha++;
-}
-putchar('\n');
-return (0);
+	char alpha = 'a';
+	while (alpha <= 'z')
+	{
+		putchar(alpha);									alpha++;
+	}
+	putchar('\n');
+	return (0);
 }
