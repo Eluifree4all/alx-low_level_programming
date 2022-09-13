@@ -13,3 +13,20 @@ int print_last_digit(int n)
 	_putchar('0' + (n % 10));
 	return (n % 10);
 }
+int main(void)
+
+{
+
+		int r;
+
+
+
+			r = print_last_digit(INT_MIN);
+
+				_putchar('0' + r);
+
+					_putchar('\n');
+
+						return (0);
+
+}
