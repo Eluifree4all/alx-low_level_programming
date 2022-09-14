@@ -20,6 +20,8 @@ int main(void)
 	}
 	if (countto % 2 == 1)
 		printf("%li", a);
+	if (countto % 2 == 1)
+		printf(", ");
 	printf("\n");
 	return (0);
 }
