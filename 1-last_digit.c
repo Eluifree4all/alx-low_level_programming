@@ -4,11 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
-{
-
-	int n;
-
+int main(
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %i is %i and is ", n, (n % 10));
