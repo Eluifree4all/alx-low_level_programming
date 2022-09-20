@@ -35,26 +35,3 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 	return (dest);
 }
-
-/* another method using pointer notation
- * char *_strcpy(char *dest, char *src)
- * Return: the char
- * {
- *
- *         while (*src)
- *
- *         	{
- *
- *         	 	   *dest = *src;
- *
- *         	 	   	   src++;
- *
- *         	 	   	   	   dest++;
- *
- *         	 	   	   	   	}
- *
- *         	 	   	   	   		return (dest);
- *
- *         	 	   	   	   		}
- *
- *         	 	   	   	   		*/
