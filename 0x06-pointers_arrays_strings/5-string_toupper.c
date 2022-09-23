@@ -5,7 +5,7 @@
 * @s: string to manipulate
 * Return: string with all letters capitalized
 */
-
+/*
 char *string_toupper(char *s)
 
 {
@@ -16,4 +16,12 @@ char *string_toupper(char *s)
 		if (s[i] >= 'a' && s[i] <= 'z')
 			s[i] = s[i] - 'a' + 'A';
 		return (s);
+}
+*/
+char *string_toupper(char *s)
+{
+	while (*s) //if s exists will omit null terminator
+		if (*s >= 'a' && *s <= 'z')
+			*s = *s -'a' + 'A';
+	s++;
 }
