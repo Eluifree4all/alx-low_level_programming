@@ -1,14 +1,18 @@
-#ifndef MAIN_H
+#include <stdio.h>
 
-#define MAIN_H
+#include "main.h"
 
 /**
-* _putchar - writes the character c to stdout
-* @c: The character to print
-* Return: On success 1.
-* On error, -1 is returned, and errno is set appropriately.
+* main - print name of program
+* @argc: argument counter
+* @argv: pointer to array of arguments
+* Return: 0 on success
 */
 
-int _putchar(char c);
+int main(int argc, char *argv[])
+{
 
-#endif
+		if (argc > 0)
+			printf("%s\n", argv[0]);
+		return (0);
+}
