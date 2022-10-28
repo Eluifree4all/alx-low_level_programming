@@ -22,7 +22,7 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	do {
 		diff_bits += (difference & 1);
 		difference >>= 1;
-	}
-	while(difference > 0);
+	}while
+	(difference > 0);
 	return (diff_bits);
 }
