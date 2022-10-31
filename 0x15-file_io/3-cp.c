@@ -67,16 +67,12 @@ int main(int argc, char *argv[])
 	{
 		if (n_read == -1)
 			__exit(98, argv[1], 0);
-
 		n_wrote = write(fd_2, buffer, n_read);
 
 		if (n_wrote == -1)
 			__exit(99, argv[2], 0);
 	}
-
 	close(fd_2) == -1 ? (__exit(100, NULL, fd_2)) : close(fd_2);
-
 	close(fd_1) == -1 ? (__exit(100, NULL, fd_1)) : close(fd_1);
-
 	return (0);
 }
